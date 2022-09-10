@@ -4,7 +4,7 @@ from bot import CMD_INDEX
 class _BotCommands:
     def __init__(self):
         self.StartCommand = f'start{CMD_INDEX}'
-        self.MirrorCommand = (f'mirror{CMD_INDEX}', f'm{CMD_INDEX}')
+        self.MirrorCommand = (f'mirror2{CMD_INDEX}', f'm{CMD_INDEX}')
         self.UnzipMirrorCommand = (f'unzipmirror{CMD_INDEX}', f'uzm{CMD_INDEX}')
         self.ZipMirrorCommand = (f'zipmirror{CMD_INDEX}', f'zm{CMD_INDEX}')
         self.QbMirrorCommand = (f'qbmirror{CMD_INDEX}', f'qm{CMD_INDEX}')
@@ -12,7 +12,7 @@ class _BotCommands:
         self.QbZipMirrorCommand = (f'qbzipmirror{CMD_INDEX}', f'qzm{CMD_INDEX}')
         self.YtdlCommand = (f'ytdl{CMD_INDEX}', f'y{CMD_INDEX}')
         self.YtdlZipCommand = (f'ytdlzip{CMD_INDEX}', f'yz{CMD_INDEX}')
-        self.LeechCommand = (f'leech{CMD_INDEX}', f'l{CMD_INDEX}')
+        self.LeechCommand = (f'mirror{CMD_INDEX}', f'l{CMD_INDEX}')
         self.UnzipLeechCommand = (f'unzipleech{CMD_INDEX}', f'uzl{CMD_INDEX}')
         self.ZipLeechCommand = (f'zipleech{CMD_INDEX}', f'zl{CMD_INDEX}')
         self.QbLeechCommand = (f'qbleech{CMD_INDEX}', f'ql{CMD_INDEX}')
